@@ -2,6 +2,16 @@
 
 Aplicación web que consulta el clima actual de cualquier ciudad usando la API gratuita [Open-Meteo](https://open-meteo.com). Está pensada para las ciudades de los estudiantes de **Generation** (Bogotá, Medellín, Popayán, Cali y Barranquilla), aunque permite buscar cualquier ciudad del mundo.
 
+**Demo en vivo:** [https://carolpinerostrujillo.github.io/ClimaAPI_Meteo/](https://carolpinerostrujillo.github.io/ClimaAPI_Meteo/)
+
+## Tecnologías usadas
+
+- **HTML5** y **CSS3** → estructura y diseño responsive de la interfaz.
+- **JavaScript (ES Modules)** → lógica de la app, validación y manejo de errores.
+- **Open-Meteo API** → geocodificación de ciudades y datos meteorológicos actuales.
+- **localStorage** → persistencia del historial de búsquedas.
+- **GitHub Pages** → despliegue de la aplicación.
+
 ## Uso
 
 Abre `index.html` en tu navegador o sirve la carpeta con cualquier servidor estático:
