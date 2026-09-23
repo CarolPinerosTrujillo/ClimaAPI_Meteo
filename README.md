@@ -18,7 +18,7 @@ Abre `index.html` en tu navegador o sirve la carpeta con cualquier servidor est�
 
 ```bash
 # Opción con npx (sin instalar nada)
-npx serve clima-app
+npx serve .
 ```
 
 Luego escribe una ciudad en el buscador o haz clic en una de las recomendadas.
@@ -61,8 +61,7 @@ Antes de consultar el clima, el nombre de la ciudad pasa por varias validaciones
 ## Estructura
 
 ```
-clima-app/
-├── index.html          # Interfaz principal
+├── index.html          # Interfaz principal (página que despliega GitHub Pages)
 ├── css/styles.css      # Estilos de la aplicación
 ├── js/
 │   ├── app.js          # Orquestación, historial y flujo de búsqueda
@@ -70,7 +69,8 @@ clima-app/
 │   ├── ui.js           # Manipulación del DOM y renderizado
 │   └── weather.js      # Traducción de códigos meteorológicos y formato
 ├── assets/             # Imágenes e íconos
-└── package.json        # Definición del proyecto (ES modules)
+├── package.json        # Definición del proyecto (ES modules)
+└── README.md           # Documentación del proyecto
 ```
 
 ## Origen del proyecto
